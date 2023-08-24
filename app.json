@@ -8,6 +8,11 @@
   "success_url": "/dashboard",
   "website": "https://nocodb.com",
   "repository": "https://github.com/nocodb/nocodb-seed-heroku",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
   "formation": {
     "web": {
       "quantity": 1
